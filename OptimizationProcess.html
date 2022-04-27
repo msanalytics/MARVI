@@ -7,11 +7,6 @@ div {display : flex; justify-content : center;}
 </style>
 </head>
 <body>
-
-
-
-
-
 <h1 style="text-align:center;">Well Optimization Process</h1>
 
 <p>
@@ -33,7 +28,7 @@ div {display : flex; justify-content : center;}
 </p>
 
 <p style ="text-align:center; border:none">
-    <iframe src="https://drive.google.com/file/d/1eiqJQRtpXMfb2F00WDmE0u59EDu8U3wD/preview" width="640" height="480" allow="autoplay"></iframe> 
+    <iframe src="https://drive.google.com/file/d/1eiqJQRtpXMfb2F00WDmE0u59EDu8U3wD/preview" width="640" height="480" allow="autoplay" frameBorder="0"></iframe> 
     <br>
 </p>
 
@@ -41,25 +36,29 @@ div {display : flex; justify-content : center;}
 
 <h3>What does this algorithm have to do with MARVI?</h3>
 <p>
+    <blockquote>
     In RStudio, a line was constructed using all of the wells (i.e. points) in the well network.
     The resulting line is a bit chaotic and has plenty of likely unecessary points. 
     The algorithm will help trim anything extra and result in a much cleaner shape. 
+    </blockquote>
 </p>
 <p style ="text-align:center;">
-    <iframe src="https://drive.google.com/file/d/1d1yw3dlTDBo3-Gd3eQWVTSwE43ASqRQp/preview" width="384" height="288" allow="autoplay"></iframe> 
+    <iframe src="https://drive.google.com/file/d/1d1yw3dlTDBo3-Gd3eQWVTSwE43ASqRQp/preview" width="384" height="288" allow="autoplay" frameBorder="0"></iframe> 
     <br>
 </p>
 
 <h3>Applying the algorithm</h3>
 <p>
+    <blockquote>
     Once the points are in RStudio, the algorithm can be applied and it will turn that former mess of points into a nice scatterplot.
     Next to the scatterplot are the resulting coordinates of the remaining points.
+    </blockquote>
 </p>
 
 <div>
-    <iframe src="https://drive.google.com/file/d/14EKjYPjI6xSU_ykLd2l--OmFtUzsK7DU/preview" width="384" height="288" allow="autoplay" frameborder="0" align="left" ></iframe> 
+    <iframe src="https://drive.google.com/file/d/14EKjYPjI6xSU_ykLd2l--OmFtUzsK7DU/preview" width="384" height="288" allow="autoplay" frameBorder="0" align="left" ></iframe> 
 
-    <iframe src="https://drive.google.com/file/d/1AbiTisNey3_cWuSPX6wEB7O2E-cmFrKi/preview" width="384" height="288" allow="autoplay" frameborder="0" align="right" ></iframe> 
+    <iframe src="https://drive.google.com/file/d/1AbiTisNey3_cWuSPX6wEB7O2E-cmFrKi/preview" width="384" height="288" allow="autoplay" frameBorder="0" align="right" ></iframe> 
 </div>
     <div style="clear:both;"></div>
 </div>
@@ -69,14 +68,14 @@ div {display : flex; justify-content : center;}
     <blockquote>
         The last step is to test the watershed using <b>the Kriging Method</b> with the new well network. This method is a method of spatial interpolation, where acquired samples are used to approximate and predict at unsampled locations.
         This implies that Kriging can be used to predict the best wells to use now that we have a smaller list, thanks to the earlier algorithm.
-        
+        <br>
+        <br>
+        When the new list of wells is interpolated with the Kriging method, we can compare the resulting heatmap to a heatmap of the entire well network, as shown below.
+        Through both the Ramer-Douglas-Peucker algorithm and Kriging interpolation, the optimal 30 wells for weekly monitoring have been selected.
     </blockquote>
-
-    When the new list of wells is interpolated with the Kriging method, we can compare the resulting heatmap to a heatmap of the entire well network, as shown below.
-    Through both the Ramer-Douglas-Peucker algorithm and Kriging interpolation, the optimal 30 wells for weekly monitoring have been selected.
 </p>
 <p style ="text-align:center;">
-    <iframe src="https://drive.google.com/file/d/1H75uDVMShMr7cDrGkB_T9uND0-M5SLms/preview" width="640" height="480" allow="autoplay"></iframe> 
+    <iframe src="https://drive.google.com/file/d/1H75uDVMShMr7cDrGkB_T9uND0-M5SLms/preview" width="640" height="480" allow="autoplay" frameBorder="0"></iframe> 
     <br>
 </p>
 
